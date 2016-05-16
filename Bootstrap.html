@@ -2,7 +2,7 @@
   <head>
     <title="master"/>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
     <link rel="stylesheet" href="..bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -12,8 +12,11 @@
 
 <!--body -->
   <body background="img/boot_bg.jpg">
-    <div class="container"><!--container begins-->
+  <div class="container"><!--container begins-->
+
+
     <div style="float:left;">
+
       <ttl>
         <li>SHERLOCK<li>
       </ttl>
@@ -26,18 +29,22 @@
         <li><a href="#contact">Contact <span class="glyphicon glyphicon-earphone"></span></a></li>
         <li><a href="#about">About</a></li>
       </ul>
+<!--end nav bar-->
 
+<!--row-->
     <div class="row"><!--row-->
-<div class="primary col-sm-4"><!--column1-->
+    <div class="primary col-sm-4"><!--column1-->
      <img class="img-circle"src="img/sherlockben.jpg" height="400" width="318"></img>
-
      <p class="p">  Character BiographyDiscuss
     Sherlock Holmes is the legendary great detective
     who solves even the most baffling cases with astute observation,
     deductive reasoning and very little people skills</p>
+    <a href="#" target="_blank" class="btn btn-warning btn-block">Look for Sherlock Holmes</a>
   </div><!--end column1-->
+  
     <!--column2-->
     <div class="content col-sm-4">
+    
 
       <img class="img-circle"src="img/watson.jpg" height="400" width="318"></img>
 
@@ -45,17 +52,20 @@
     Sherlock Holmes stories by Sir Arthur Conan Doyle. Watson is Sherlock Holmes' friend,
     assistant and sometime flatmate, and the first person narrator
     of all but four of these stories.</p>
-
+<a href="#" target="_blank" class="btn btn-warning btn-block">Look for Dr.Watson</a>
+  
   </div>  <!--end column2-->
       <!--column3-->
       <div class="secondary col-sm-4">
+      
 
         <img class="img-circle"src="img/mor.jpg"height="400" width="318"></img>
         <p  class="p">
     Professor James Moriarty is a fictional character in some of the Sherlock Holmes
     stories written by Sir Arthur Conan Doyle. Moriarty is
     a criminal mastermind whom Holmes describes as the "Napoleon of crime".</p>
-
+<a href="#" target="_blank" class="btn btn-warning btn-block">Look for Moriarity</a>
+  
   </div>  <!--end column3-->
 </div>  <!--end row-->
 
@@ -80,7 +90,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="img/sherlock-holmes-main.jpg" width="460" height="345">
+            <img src="img/sherlock-holmes-main.jpg" >
           </div>
 
           <div class="item">
@@ -106,14 +116,29 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+
     </div>
-</div>
+
+
+
+
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script>
             $("#carousel").carousel();
         </script>
+
+            </div>
+            <!-- call now -->
+                        <div class="well well-small visible-sm">
+                           <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Call now</a>
+                        </div>
+            <!--end call now-->
+
+</div>
   </body>
   <!----footer---->
   <footer>
